@@ -1,0 +1,10 @@
+.omc/
+.gstack/
+node_modules/
+.vercel/
+specs/
+tools/
+_headers
+vercel.json
+.vercelignore
+.assetsignore
