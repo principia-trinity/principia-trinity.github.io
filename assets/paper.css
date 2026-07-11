@@ -305,21 +305,44 @@ a:focus-visible {
 }
 
 /* ------------------------------------------------------------------ */
-/* References                                                          */
+/* Footnotes                                                           */
 /* ------------------------------------------------------------------ */
 
-.references ol {
+.fn-ref { font-size: 0.7em; }
+.fn-ref a { border-bottom: none; }
+
+.footnotes {
+  margin-top: 4rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.82rem;
+  color: var(--dim);
+}
+.footnotes ol {
   margin: 0;
-  padding-left: 1.6rem;
+  padding-left: 1.3rem;
+}
+.footnotes li { margin-bottom: 0.3rem; }
+.footnotes li::marker { color: var(--faint); }
+.footnotes li:target { color: var(--ink); }
+
+/* ------------------------------------------------------------------ */
+/* References (alphanumeric keys, amsalpha style)                      */
+/* ------------------------------------------------------------------ */
+
+.references ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   font-size: 0.95rem;
 }
 .references li {
   margin-bottom: 0.45rem;
   color: var(--dim);
 }
-.references li::marker {
-  color: var(--faint);
-  font-size: 0.85rem;
+.bibkey {
+  color: var(--ink);
+  margin-right: 0.35em;
 }
 
 /* ------------------------------------------------------------------ */

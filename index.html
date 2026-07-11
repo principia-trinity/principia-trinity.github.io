@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Daniel Kang — On the Existence of Unbounded Imagination</title>
-  <meta name="description" content="A short note proving that the imagination of the author is total, independent, self-sustaining, non-repeating, and strictly unbounded. By Daniel Kang.">
+  <meta name="description" content="We prove that the imagination of the author is unbounded. By Daniel Kang.">
   <meta property="og:title" content="Daniel Kang — On the Existence of Unbounded Imagination">
-  <meta property="og:description" content="A short note proving that the imagination of the author is total, independent, self-sustaining, non-repeating, and strictly unbounded.">
+  <meta property="og:description" content="We prove that the imagination of the author is unbounded.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://principia-trinity.github.io/">
   <meta property="og:image" content="https://principia-trinity.github.io/assets/og.png">
@@ -34,18 +34,7 @@
 
     <section class="abstract">
       <h2 class="abstract-head">Abstract</h2>
-      <p>It is widely held that imagination is bounded by experience. We prove that
-      at least one counterexample exists. Writing <em>I</em> for the imagination of
-      the author, we establish that <em>I</em> is total &mdash; whatever it conceives
-      takes form (Theorem&nbsp;2.1) &mdash; that it is confined by nothing
-      (Theorem&nbsp;2.2), sustains itself (Theorem&nbsp;2.3), and never repeats
-      (Theorem&nbsp;2.4). We then show that <em>I</em> does not merely survey what is
-      possible but defines it (Theorem&nbsp;3.1), so that new laws of physics, art
-      styles that transcend perception, and undiscovered theorems arise as trivial
-      corollaries (Corollary&nbsp;3.2). We close by settling the question of limits:
-      any limit on <em>I</em> lies in the image of <em>I</em>, and is broken at the
-      following moment (Theorem&nbsp;4.2). Figure&nbsp;1 is generated fresh at every
-      reading and is, almost surely, never the same twice.</p>
+      <p>We prove that the imagination of the author is unbounded.</p>
     </section>
 
     <figure class="figure" id="figure-1">
@@ -66,132 +55,170 @@
     </figure>
 
     <section>
-      <h2><span class="sec-no">1.</span> Preliminaries</h2>
+      <h2><span class="sec-no">1.</span> Introduction</h2>
 
-      <p class="env"><strong>Definition 1.1</strong> (The conceivable)<strong>.</strong>
-        <em>Let V denote the class of everything that exists or could exist. Logic,
-        knowledge, and reality are subclasses of V.</em></p>
+      <p>The goal of this note is to prove the following theorem.</p>
 
-      <p class="env"><strong>Definition 1.2</strong> (The imagination)<strong>.</strong>
-        <em>Let I denote the imagination of the author: a map into a class strictly
-        larger than V. Its domain is empty; it requires nothing.</em></p>
+      <p class="env"><strong>Theorem 1.1.</strong>
+        <em>Let I denote the imagination of the author. Then I is unbounded. More
+        precisely: any limit on I lies in the image of I, and is broken at the very
+        next moment.</em></p>
 
-      <p class="env remark"><strong>Remark 1.3.</strong> Ordinary creativity is a
-        function of experience, intelligence, and external inspiration.
-        Definition&nbsp;1.2 is not of this kind: <em>I</em> takes no arguments. In
-        particular, prior understanding of a subject is nowhere required in order to
-        create something entirely new within it.</p>
+      <p>It is widely believed that imagination is bounded &mdash; shaped by
+      experience, by intelligence, by external inspiration, and confined to what
+      already makes sense. The content of Theorem&nbsp;1.1 is that at least one
+      counterexample exists.</p>
 
-      <p class="env"><strong>Axiom 1.4</strong> (Wellspring)<strong>.</strong>
-        <em>I is eternal and inexhaustible: it never ceases, and it never runs
-        dry.</em></p>
+      <p>Let us briefly explain the strategy. In Section&nbsp;2 we introduce
+      figments and isolate the only axiom we will need (Axiom&nbsp;2.4). In
+      Section&nbsp;3 we prove that whatever <em>I</em> conceives takes form
+      (Proposition&nbsp;3.1), and that the possible is precisely the image of
+      <em>I</em> (Theorem&nbsp;3.5): the imagination does not survey possibility;
+      it defines it. Theorem&nbsp;1.1 then follows formally, and is proved in
+      Section&nbsp;4. Throughout, we systematically ignore set-theoretic
+      issues.<sup class="fn-ref"><a href="#fn1" id="fnref1">1</a></sup></p>
 
-      <p class="env remark"><strong>Remark 1.5.</strong> This is the only axiom we
-        shall need. Everything else is a theorem.</p>
+      <p>Figure&nbsp;1 is generated afresh at each reading; almost surely, every
+      curve is witnessed exactly once.</p>
+
+      <p class="env remark"><strong>Acknowledgments.</strong> It is a pleasure to
+        thank the imagination of the author, without which this note could not have
+        been conceived, and by which it was. This work received no funding and
+        required no input of any kind (Definition&nbsp;2.2). Comments are welcome at
+        <a href="mailto:crystalinecohomology@gmail.com">crystalinecohomology@gmail.com</a>.</p>
     </section>
 
     <section>
-      <h2><span class="sec-no">2.</span> First properties</h2>
+      <h2><span class="sec-no">2.</span> Figments</h2>
 
-      <p class="env"><strong>Theorem 2.1</strong> (Totality)<strong>.</strong>
+      <p>Throughout, <em>V</em> denotes the class of everything that exists or
+      could exist; logic, knowledge and reality are among its subclasses. We warn
+      the reader that <em>V</em> is not a
+      set.<sup class="fn-ref"><a href="#fn2" id="fnref2">2</a></sup></p>
+
+      <p class="env"><strong>Definition 2.1.</strong>
+        <em>A figment is anything that can be imagined.</em>
+        (By Theorem&nbsp;3.5 below, this includes everything.)</p>
+
+      <p class="env"><strong>Definition 2.2.</strong>
+        <em>Let I denote the imagination of the author: a map from nothing into
+        figments, whose image is strictly larger than V. It takes no arguments and
+        requires no input.</em></p>
+
+      <p class="env remark"><strong>Remark 2.3.</strong> Ordinary creativity is a
+        function of experience, intelligence and external inspiration.
+        Definition&nbsp;2.2 is not of this kind: in particular, no prior
+        understanding of a subject is required in order to create something entirely
+        new within it. The reader may object that this is too strong. It is.</p>
+
+      <p class="env"><strong>Axiom 2.4</strong> (Wellspring)<strong>.</strong>
+        <em>I never ceases, and it never runs dry.</em></p>
+
+      <p class="env remark"><strong>Remark 2.5.</strong> This is the only axiom.
+        It turns out that everything else is a theorem.</p>
+    </section>
+
+    <section>
+      <h2><span class="sec-no">3.</span> The image of <em>I</em></h2>
+
+      <p class="env"><strong>Proposition 3.1</strong> (Totality)<strong>.</strong>
         <em>Whatever I conceives takes form in some way. Nothing is beyond its
         reach.</em></p>
-      <p class="proof"><em>Proof.</em> If a thing is imaginable, it can take form.
-        But every thing under discussion is imaginable, having just been imagined.
+      <p class="proof"><em>Proof.</em> Anything imaginable can take form; and
+        everything under discussion has just been imagined.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env"><strong>Theorem 2.2</strong> (Independence)<strong>.</strong>
-        <em>I is confined by neither time, space, nor rational comprehension, and is
-        not bounded by the limitations of human knowledge.</em></p>
-      <p class="proof"><em>Proof.</em> Each named bound is a subclass of
-        <em>V</em> (Definition&nbsp;1.1). By Definition&nbsp;1.2 the image of
-        <em>I</em> strictly exceeds <em>V</em>, and no map is confined by a class it
-        exceeds.
+      <p class="env"><strong>Proposition 3.2</strong> (Independence)<strong>.</strong>
+        <em>I is confined by neither time, space, nor rational comprehension, and
+        in particular not by the limitations of human knowledge.</em></p>
+      <p class="proof"><em>Proof.</em> Each of these is a subclass of <em>V</em>,
+        and the image of <em>I</em> is strictly larger (Definition&nbsp;2.2).
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env"><strong>Theorem 2.3</strong> (Self-sustainment)<strong>.</strong>
-        <em>The thoughts of I evolve and expand in directions beyond the author&rsquo;s
-        own expectations.</em></p>
-      <p class="proof"><em>Proof.</em> Apply <em>I</em> to itself. The result was,
-        by construction, unexpected.
+      <p class="env"><strong>Proposition 3.3</strong> (Non-repetition)<strong>.</strong>
+        <em>No two figments of I coincide, and no creation is redundant.</em></p>
+      <p class="proof"><em>Proof.</em> Repetition would otherwise be conceivable to
+        <em>I</em>; but the very notion is alien to it.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env"><strong>Theorem 2.4</strong> (Non-repetition)<strong>.</strong>
-        <em>No two thoughts of I are the same, and no creation is redundant.</em></p>
-      <p class="proof"><em>Proof.</em> Suppose two thoughts coincided. Repetition
-        would then be conceivable to <em>I</em>. But the very notion of repetition
-        is alien to <em>I</em> &mdash; a contradiction.
+      <p class="env"><strong>Lemma 3.4</strong> (Self-sustainment)<strong>.</strong>
+        <em>The thoughts of I evolve and expand beyond the author&rsquo;s own
+        expectations.</em></p>
+      <p class="proof"><em>Proof.</em> Apply <em>I</em> to
+        itself.<sup class="fn-ref"><a href="#fn3" id="fnref3">3</a></sup> The
+        result was, by construction, unexpected.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
-    </section>
 
-    <section>
-      <h2><span class="sec-no">3.</span> Definability of the possible</h2>
+      <p>It turns out that <em>I</em> does not merely range over the possible.</p>
 
-      <p class="env"><strong>Theorem 3.1</strong> (Definition of possibility)<strong>.</strong>
-        <em>I does not merely imagine new possibilities; it defines them. Precisely:
-        the possible is the image of I.</em></p>
+      <p class="env"><strong>Theorem 3.5.</strong>
+        <em>The possible is precisely the image of I.</em></p>
       <p class="proof"><em>Proof.</em> Let <em>c</em> be a concept that does not
-        exist. Then <em>I</em> brings <em>c</em> into existence &mdash; by sheer
-        conceptualization or, if necessary, by altering the foundation of reality to
-        accommodate it, enlarging <em>V</em>. Hence whatever is possible lay first
-        in the image of <em>I</em>; the reverse inclusion is Theorem&nbsp;2.1.
+        exist. Then <em>I</em> brings <em>c</em> into existence: by sheer
+        conceptualization, or &mdash; if reality does not accommodate <em>c</em>
+        &mdash; by enlarging <em>V</em> until it does. The reverse inclusion is
+        Proposition&nbsp;3.1.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env"><strong>Corollary 3.2</strong> (Trivial extensions)<strong>.</strong>
+      <p class="env"><strong>Corollary 3.6.</strong>
         <em>A new law of physics. An art style that transcends perception. An
         undiscovered mathematical theorem. A never-before-seen power.</em></p>
-      <p class="proof"><em>Proof.</em> Each is a trivial extension of
-        Theorem&nbsp;3.1.
+      <p class="proof"><em>Proof.</em> Trivial.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env remark"><strong>Remark 3.3.</strong> Adherence to existing logic
-        or to any established framework is nowhere assumed above, and nowhere
-        needed.</p>
+      <p class="env remark"><strong>Remark 3.7.</strong> At no point did we assume
+        adherence to existing logic, or to any established framework. We did not
+        need to.</p>
     </section>
 
     <section>
-      <h2><span class="sec-no">4.</span> Unboundedness</h2>
+      <h2><span class="sec-no">4.</span> Proof of Theorem 1.1</h2>
 
-      <p class="env"><strong>Theorem 4.1</strong> (Strict growth)<strong>.</strong>
-        <em>With every moment the reach of I strictly increases: each idea is more
-        groundbreaking, intricate, or unfathomable than the last.</em></p>
-      <p class="proof"><em>Proof.</em> Axiom&nbsp;1.4 supplies a sequence of
-        creations that never ends; Theorem&nbsp;2.4 forbids it from ever standing
-        still. A never-ceasing, never-repeating expansion into pure potentiality
-        admits no supremum.
+      <p class="env"><strong>Lemma 4.1</strong> (Strict growth)<strong>.</strong>
+        <em>With every moment the reach of I strictly increases: each figment is
+        more groundbreaking, intricate, or unfathomable than the last.</em></p>
+      <p class="proof"><em>Proof.</em> By Axiom&nbsp;2.4 the sequence of creations
+        never ends; by Proposition&nbsp;3.3 it never repeats. A never-ceasing,
+        never-repeating expansion into pure potentiality admits no supremum.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env"><strong>Theorem 4.2</strong> (The limit)<strong>.</strong>
-        <em>If L is a limit on I, then L lies in the image of I &mdash; and L is
-        broken at the very next moment.</em></p>
-      <p class="proof"><em>Proof.</em> Only <em>I</em> could have imagined a limit
-        on <em>I</em>. By Theorem&nbsp;3.1, <em>L</em> exists exactly because
-        <em>I</em> defined it into existence; by Theorem&nbsp;4.1, the following
-        moment reaches strictly beyond it.
+      <p class="proof"><em>Proof of Theorem 1.1.</em> Let <em>L</em> be a limit on
+        <em>I</em>. Only <em>I</em> could have imagined a limit on <em>I</em>; so
+        <em>L</em> lies in the image of <em>I</em>, and exists precisely because
+        <em>I</em> defined it into existence (Theorem&nbsp;3.5). By
+        Lemma&nbsp;4.1, the following moment reaches strictly beyond it.
         <span class="qed" role="img" aria-label="end of proof"></span></p>
 
-      <p class="env remark"><strong>Remark 4.3</strong> (Visionaries beyond
-        vision)<strong>.</strong> By Theorem&nbsp;3.1, the fabric of what is possible
-        is woven from the thoughts of the author. He is therefore not simply a
-        creator.</p>
+      <p class="env remark"><strong>Remark 4.2.</strong> In particular, the fabric
+        of what is possible is woven from the thoughts of the author, who is
+        therefore not simply a creator. One wants to say: a visionary beyond
+        vision. We will not make this precise.</p>
 
       <p>There is nothing further to prove that will not first have to be
       imagined.</p>
     </section>
 
-    <section class="references">
-      <h2>References</h2>
+    <section class="footnotes" aria-label="Footnotes">
       <ol>
-        <li id="ref-1">D. Kang. <em>The imagination of the author.</em> Primary
-          source; consulted continuously since birth.</li>
-        <li id="ref-2">Correspondence.
-          <a href="mailto:crystalinecohomology@gmail.com">crystalinecohomology@gmail.com</a></li>
+        <li id="fn1">They can always be resolved by enlarging the universe; see the
+          proof of Theorem&nbsp;3.5.</li>
+        <li id="fn2">Neither is anything else in this note.</li>
+        <li id="fn3">This is allowed.</li>
       </ol>
     </section>
 
+    <section class="references">
+      <h2>References</h2>
+      <ul>
+        <li id="ref-1"><span class="bibkey">[Kan26]</span> D. Kang,
+          <em>The imagination of the author</em>. Primary source; consulted
+          continuously since birth.</li>
+        <li id="ref-2"><span class="bibkey">[Kan&infin;]</span> D. Kang,
+          <em>Everything else</em>. In preparation.</li>
+      </ul>
+    </section>
+
     <footer class="colophon">
-      <p>Typeset in STIX Two Text on midnight paper. Figure&nbsp;1 by the
-      imagination engine, seeded at your arrival. No framework was required.</p>
       <p class="tombstone"><span class="qed qed-large" aria-hidden="true"></span></p>
     </footer>
 
